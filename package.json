@@ -1,0 +1,23 @@
+{
+  "name": "curso-ecmascript",
+  "version": "1.0.0",
+  "description": "Esto es un curso de ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiniGumy/curso-ECMAScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "David Sanchez <dsebastiansr24@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChiniGumy/curso-ECMAScript/issues"
+  },
+  "homepage": "https://github.com/ChiniGumy/curso-ECMAScript#readme"
+}
