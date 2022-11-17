@@ -16,6 +16,7 @@
   ],
   "author": "David Sanchez <dsebastiansr24@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ChiniGumy/curso-ECMAScript/issues"
   },
