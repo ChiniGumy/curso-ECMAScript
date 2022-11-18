@@ -18,6 +18,14 @@ const anotherFunction = () => {
 	});
 }
 
+// Lo que recibira el .then sera una funcion, cuyo argumento sera el valor resuleto por la promesa
+
+// El response (en este caso) sera lo que ejecute el resolve de la promesa
+// El err (en este caso) sera lo que ejecute el reject de la promesa
+
+// .then : response
+// .catch : reject
+
 anotherFunction()
 	.then(response => console.log(response))
 	.catch(err => console.log('Error'));

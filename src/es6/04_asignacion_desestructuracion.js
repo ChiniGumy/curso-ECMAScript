@@ -11,6 +11,8 @@ console.log(a, fruits[1]);
 
 // Usar el let o const, con llaves y poner dentro valores, se lo conoce como destructurar un objeto, donde se inicializa las variables con los mismos nombres de claves
 
+// para ponerle alias a una variable destructurada se le pone un ':' y despues de los dos puntos el nuevo nombre o alias
+
 let user = {username: 'ChiniGumy', age: 16};
-let {username:nick, age} = user;
-console.log(nick, age);
+let {username, age} = user;
+console.log(username, age);

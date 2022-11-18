@@ -14,6 +14,8 @@ newUser('David', 15, 'Colombia');
 
 // Que si hacer
 
+// Buena practica: poner los paramatros con valor por defecto (siempre y cuando se pueda) al final
+
 function newAdmin(name = 'Dome', age = 16, country = 'Ecuador'){
 	console.log(name, age, country);
 }
