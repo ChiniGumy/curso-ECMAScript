@@ -14,5 +14,5 @@ console.log(a, fruits[1]);
 // para ponerle alias a una variable destructurada se le pone un ':' y despues de los dos puntos el nuevo nombre o alias
 
 let user = {username: 'ChiniGumy', age: 16};
-let {username, age} = user;
-console.log(username, age);
+let {username:nick, age} = user;
+console.log(nick, age);
