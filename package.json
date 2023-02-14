@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ChiniGumy/curso-ECMAScript/issues"
   },
-  "homepage": "https://github.com/ChiniGumy/curso-ECMAScript#readme"
+  "homepage": "https://github.com/ChiniGumy/curso-ECMAScript#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
